@@ -1,0 +1,146 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f5f5f5;
+      padding: 40px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+   .logo {
+      width: 100px;
+      margin-bottom: 10px;
+      border-radius: 50%; /* 🔄 Make the logo round */
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Optional: give it a subtle shadow */
+    }
+    h1 {
+      font-size: 32px;
+      color: #6b4226;
+    }
+
+    .main-content {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #fdf8f3;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      flex: 1 1 350px;
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      color: #6b4226;
+    }
+
+    .order-list {
+      list-style: none;
+    }
+
+    .order-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .item-details {
+      display: flex;
+    }
+
+    .quantity {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .description {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .item-name {
+      font-weight: bold;
+    }
+
+    .extras {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .price {
+      font-weight: bold;
+    }
+
+    .input-group {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .input-label {
+      position: absolute;
+      top: -8px;
+      left: 15px;
+      background-color: #fdf8f3;
+      font-size: 12px;
+      padding: 0 4px;
+      color: #6b4226;
+    }
+
+    .input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: right;
+    }
+
+    .total p {
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    .total span {
+      font-weight: bold;
+    }
+
+    .checkout-button {
+      margin-top: 20px;
+      background-color: #6b4226;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .checkout-button:hover {
+      background-color: #4d2f1c;
+    }

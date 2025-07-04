@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Masters Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Coffee Masters Logo" class="logo" />
+      <h1>Coffee Masters</h1>
+    </header>
+
+    <main class="main-content">
+      <section class="card">
+        <h2>Order</h2>
+        <ul class="order-list">
+          <li class="order-item">
+            <div class="item-details">
+              <span class="quantity">1x</span>
+              <div class="description">
+                <p class="item-name">Cappuccino</p>
+                <p class="extras">Lite milk</p>
+              </div>
+            </div>
+            <span class="price">$3.50</span>
+          </li>
+          <li class="order-item">
+            <div class="item-details">
+              <span class="quantity">1x</span>
+              <div class="description">
+                <p class="item-name">Croissant</p>
+                <p class="extras">Butter</p>
+              </div>
+            </div>
+            <span class="price">$2.25</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Payment Details</h2>
+        <div class="input-group">
+          <label for="name" class="input-label">Name</label>
+          <input type="text" id="name" placeholder="Your Name" class="input" />
+        </div>
+        <div class="input-group">
+          <label for="card" class="input-label">Card Number</label>
+          <input type="text" id="card" placeholder="1234 5678 9012 3456" class="input" />
+        </div>
+        <div class="input-group">
+          <label for="expiry" class="input-label">Expiry</label>
+          <input type="text" id="expiry" placeholder="MM/YY" class="input" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="total">
+        <p>Subtotal: <span>$5.75</span></p>
+        <p>Tax: <span>$0.45</span></p>
+        <p>Total: <span>$6.20</span></p>
+      </div>
+      <button class="checkout-button">Place Order</button>
+    </footer>
+  </div>
+</body>
+</html>
